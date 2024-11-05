@@ -1,0 +1,390 @@
+ @media screen and (min-width:2561px){
+    #cover{
+        height:1200px
+    }
+}
+
+@media screen and (min-width:1441px){
+    #logo img{
+        margin-left:500px;
+    }
+    #cover{
+        height:680px
+    }
+    #about-me-info, #about-me-info h4{
+        font-size: 28px;
+    }
+    #about-me-img img{
+        margin-top: 75px;
+        width:250px
+    }
+    .misija-icon{
+        height: 60px;
+        width: 60px;
+    }
+    .misija-icon i{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 35px;
+    }
+    .misija-text p, .misija-text h4{
+        font-size: 28px;
+    }
+    .quote i, .quote blockquote{
+        font-size: 30px;
+    }
+    #contact .row{
+        width:100%;
+    }
+    #contact input[type="text"]{
+        font-size: 23px;
+    }
+    #contact input[type="radio"]{
+        width: 23px;
+        height: 23px;
+    }
+    #contact label{
+        font-size: 23px;
+    }
+    #contact input[type="button"]{
+
+        font-size: 23px;
+    }
+    nav ul li a{
+        font-size: 35px;
+    }
+    #adress a{
+        font-size: 30px;
+    }
+    #adress i{
+        font-size:30px;
+    }
+    #social ul li a{
+        font-size: 30px;
+    }
+    .volonterizam-icon i{
+        width:60px;
+        height: 60px;
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .volonterizam-text{
+        font-size: 28px;
+        text-align: center;
+    }
+    #nbr1, #nbr2, #nbr3{
+        text-align: center;
+    }
+    footer{
+        font-size: 35px;
+    }
+    #scrollToTop{
+        font-size: 72px;
+    }
+} 
+
+@media screen and (max-width: 1025px) {
+    #cover{
+        height: 500px;
+    }
+    #title{
+        padding: 25px 0px;
+    }
+    #title h2{
+        font-size:34px ;
+    }
+    #adress i, #adress a{
+        font-size: 18px;
+    }
+    #social ul li a{
+        font-size: 18px;
+    }
+    #logo, nav{
+        width:100%;
+    }
+    #logo{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    #logo h1 img{
+        margin:auto;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    nav ul li:first-child{
+        margin-left: 0px;
+    }
+    #about-me-img img{
+        width: 250px;
+        margin-right:50px;
+        margin-top:25px;
+    }
+    #about-me-info p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .misija-icon{
+        width: 45px;
+        height: 45px;
+    }
+    .misija-icon i{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+    }
+    .misija-text p, .misija-text h4{
+        font-size: 20px;
+    }
+    #quotes-block{
+        width: 75%;
+    }
+    #contact .row{
+        width: 75%;
+    }
+    /* Dodatak */
+    .volonterizam-icon{
+        width: 45px;
+        height: 45px;
+    }
+    .volonterizam-icon i{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+    }
+    .volonterizam-text, .volonterizam-text h4{
+        font-size:24px;
+    }
+    .volonterizam-text span{
+        font-size:20px; 
+      }
+
+}
+
+@media screen and (max-width:769px){
+    #cover{
+        height: 385px;
+    }
+    #title{
+        padding: 20px 0px;
+    }
+    #title h2{
+        font-size:28px ;
+    }
+    #logo, nav{
+        width:100%;
+    }
+    #logo{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li:first-child{
+        margin-left: 0px;
+    }
+    #about-me .row{
+        flex-direction: column;
+    }
+    #about-me-img, #about-me-info{
+        width: 100%;
+    }
+    #about-me-img img{
+        margin:auto;
+    }
+    .heading h3{
+        font-size: 28px;
+    }
+    #about-me-info h4{
+        text-align: center;
+        font-size: 24px;
+    }
+    .misija-text{
+        width: 100%;
+    }
+    .misija{
+        flex-direction: column;
+    }
+    .misija-icon{
+        margin: 20px auto;
+    }
+    .misija text h4{
+        text-align: center;
+    }
+    .misija-icon i{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+    }
+    .gallery-image{
+        width: 31%;
+        margin-bottom: 15px;
+    }
+    #quotes-block{
+        width: 100%;
+    }
+    .quote i, .quote blockquote{
+        font-size: 18px;
+    }
+    .form-group{
+        width: 100%;
+    }
+    input[type="text"]{
+        margin-bottom: 10px;
+    }
+    /* Dodatak */
+    .sponsor-image{
+        width: 23%;
+        margin-bottom: 15px;
+    }
+    .volonterizam-text{
+        width: 100%;
+    }
+    .volonterizam{
+        flex-direction: column;
+    }
+    .volonterizam-icon{
+        margin: 20px auto;
+    }
+    .volonterizam text h4{
+        text-align: center;
+    }
+    .volonterizam-icon i{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+    }
+    #nbr1, #nbr2, #nbr3{
+        font-size:48px;
+      }
+    .volonterizam-text span{
+        font-size:18px; 
+      }
+ /* IZUM */
+      #about-me-img-izum{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #about-me-info-izum{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 426px){
+    #cover{
+        height: 240px;
+        background-position: center;
+    }
+    #title{
+        padding: 10px 0px;
+    }
+    #title h2{
+        font-size:24px ;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li{
+        margin-left: 0px;
+        background-color: var(--lightGrey);
+        border-bottom: 1px solid var(--white);
+        padding: 3px 0px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    #about-me-img img{
+        width: 200px;
+        margin-top: 0px;
+    }
+    .heading h3{
+        font-size: 24px;
+    }
+    #about-me-info h4{
+        font-size:20px;
+    }
+    #about-me-info p{
+        font-size: 14px;
+    }
+    .misija{
+        width: 100%;
+    }
+    .misija-text{
+        text-align: center;
+    }
+    .gallery-image{
+        width:100%;
+    }
+    .quote i, .quote blockquote{
+        font-size: 16px;
+    }
+    .quote blockquote{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    #contact .row{
+        width:100%;
+    }
+    /* Dodatak */
+    .sponsor-image{
+        width:48%;
+    }
+
+    .gen-pok{
+        width: 100%;
+    }
+    .volonterizam{
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .volonterizam-text{
+        text-align: center;
+    }
+    #nbr1, #nbr2, #nbr3{
+        text-align: center;
+      }
+
+}
+    
+@media screen and (max-width: 321px){
+    #cover{
+        height: 200px;
+    }
+
+    
+
+    #cover #transparent-bg #title h2{
+        font-size: 15px;
+    }
+    
+    #top-footer .center-block, #bottom-header .center-block{
+        width:90%;
+    }
+    #social ul li a{
+        font-size: 15px;
+    }
+    #adress i{
+        margin-right: 6px;
+    }
+    #social ul li{
+        margin-left: 6px;
+    }
+    #scrollToTop{
+        font-size: 32px;
+    }
+    #about-me-img-izum img{
+        width:240px;
+    }
+}

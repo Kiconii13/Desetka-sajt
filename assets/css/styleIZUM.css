@@ -1,0 +1,90 @@
+
+  /* IZUM STYLE */
+  /* IZUM STYLE */
+  /* IZUM STYLE */
+
+/* Default */
+/* Default */
+body{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 100%);
+    font-family: 'Raleway', sans-serif;
+    color:var(--darkGrey);
+}
+
+
+#top-footer{
+    width:100%;
+    width:100%;
+    background-color: black;
+    color:var(--white);
+    padding: 15px 0px;
+}
+
+#cover{
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/Izum-Cover.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+    .heading h3{
+        text-transform: capitalize;
+        font-weight: bolder;
+        font-size: 36px;
+    }
+
+    #about-me-info h4{
+        font-size: 20px;
+    }
+
+    #about-me-info{
+        margin:0px 0px 25px 0px;
+        font-size: 16px;
+}
+
+/* Footer & Scroll */
+footer{
+    background-color: black;
+    color: var(--white);
+    padding:15px 0px;
+}
+footer a{
+    color: var(--white);
+}
+#scrollToTop{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    color: var(--scarfBlue);
+    font-size: 50px;
+    display: none;
+}
+#contact{
+    background-color: black;
+}
+#about-me-img-izum{
+    width: 40%;
+    text-align:center;
+}
+#about-me-info-izum{
+    width: 60%;
+}
+#about-me-img-izum img{
+    width: 270px;
+    /* border-radius: 50%;
+    box-shadow:10px 0px 5px #667; */
+    margin-bottom: 35px;
+}
+#about-me-info-izum{
+    margin:0px 0px 25px 0px;
+    font-size: 13px;
+}
+#about-me-info-izum h4{
+    font-size: 18px;
+}
+#about-me-info-izum p{
+    text-align: justify;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+  

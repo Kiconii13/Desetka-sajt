@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+   <head>
+       <meta charset="UTF-8"/>
+       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <title>10. OKTOBAR</title>
+       <!-- Favicon -->
+       <link rel="shortcut icon" href="assets/images/IconL.png" type="image/x-icon">
+       <!-- Material Design Iconic Font -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+
+       <!-- Google Font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com"/>
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"/>
+       
+       <!-- Animate.css -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+       <!-- Tamplate CSS -->
+       <link rel="stylesheet" href="assets/css/style.css">
+       <link rel="stylesheet" href="assets/css/styleIZUM.css" type="text/css"/>
+       <link rel="stylesheet" href="assets/css/styleIK.css">
+       
+       <!-- Template Responsive CSS -->
+       <link rel="stylesheet" href="assets/css/responsive.css" type="text/css"/>
+
+        <!-- EmailJS -->
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("kPgdyDkBk2hpg64by");
+        })();
+        </script>
+
+        <!-- EmailJS local script -->
+        <script src="/assets/js/FormMail.js"></script>
+   </head>
+
+   <body>
+       <!-- Start header section -->
+       <header>
+           
+           <!-- Start bottom header section -->
+           <div id="bottom-header">
+               <div class="center-block d-flex space-between">
+                   <div id="logo">
+                       <h1>
+                           <a href="index.html">
+                               <img src="assets/images/Badge.png" alt="Badge">
+                           </a>
+                       </h1>
+                   </div>
+                   <nav>
+                       <ul class="d-flex">
+                           <li class="active-link">
+                               <a href="index.html">Početna</a>
+                           </li>
+                           <li>
+                               <a href="#" data-div="#about-me" class="nav-link">O kampu</a> 
+                           </li>
+                           <li>
+                               <a href="#" data-div="#contact" class="nav-link">Kontakt</a>
+                           </li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </header>
+       
+        <!-- Start cover section -->
+        <section id="cover">
+        <div id="transparent-bg">
+        </div>
+        </section>
+       
+        <!-- Start about me section -->
+        <section id="about-me" class="bg-gold">
+            <div class="center-block">
+                <div class="heading">
+                    <div data-aos="fade-down">
+                <h3>O <span>KAMPU</span></h3>
+            </div>    
+            </div>
+                <div class="row d-flex space-between">
+                    <div id="about-me-info-izum">
+                        <div data-aos="fade-right">
+                        <h4 class="river-text">Izviđački kamp "MORAVA"</h4>
+                        </div>
+                    <span><b>
+                        <div data-aos="fade-right">
+                        <p>Izviđački kamp "MORAVA" je otvoren 2016 godine i od tada služi kao idealno izletište i boravište u prirodi za nas i prijatelje našeg odreda. Kamp odlikuju bungalovi, teren za odbojku na pesku i letnjikovac sa kuhinjom. Izviđački kamp se nalazi na svega 200 metara udaljenosti od reke Velike Morave.
+                        </p>
+                        </div> 
+                        <div data-aos="fade-right">
+                        <h4 class="river-text">GDE, KADA i KAKO?</h4><p>Kamp je otvoren u svako doba za sve avanturiste i ljubitelje prirode koji žele da ga posete.</p>
+                        </div>
+                    </b></span>
+                    <div data-aos="fade-right">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2853.517518143174!2d21.11700006829247!3d44.34041890471867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4750d72db014e94f%3A0xab7693ec554185d3!2sSCOUT%20CAMP%20%22MORAVA%22!5e0!3m2!1ssr!2srs!4v1695164109241!5m2!1ssr!2srs" width="100%" height="260" style="border:solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                    <div data-aos="fade-up">
+                        <div id="about-me-img-izum">
+                            <img src="assets\\images\\Izum-Elaborat1.jpg" 
+                            onmouseover="this.src='assets\\images\\Izum-Elaborat2.jpg'"
+                            onmouseout="this.src='assets\\images\\Izum-Elaborat1.jpg'"
+                            alt="Elaborat"/>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+       <!-- Start contact section -->
+       <section id="contact">
+        <div class="center-block">
+            <div class="heading">
+                <h3>KONTAKT FORMA</h3>
+            </div>
+            <div class="row">
+                <form id="contact-form">
+                    <!-- 1. row -->
+                    <div class="form-row d-flex space-between">
+                        <div class="form-group">
+                            <label for="tbIme">Ime</label>
+                            <input type="text" id="tbIme" placeholder="Pera" />
+                            <p></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="tbPrezime">Prezime</label>
+                            <input type="text" id="tbPrezime" placeholder="Perić"  />
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <!-- 2. row -->
+                    <div class="form-row">
+                        <label for="tbEmail">Email</label>
+                        <input type="text" id="tbEmail" placeholder="pera@mail.com" />
+                        <p></p>
+                    </div>
+
+                    <!-- 3. row -->
+                    <div class="form-row">
+                        <label for="tbMess">Poruka</label>
+                        <textarea id="tbMess" rows="5"></textarea>
+                        <p></p>
+                    </div>
+                    <!-- 4. row -->
+                    <div class="form-row">
+                        <input type="button" value="Sačuvaj" id="btnSacuvaj" onclick="sendMail()" />
+                    </div>
+                </form>
+                <p id="message"></p>
+            </div>
+        </div>
+    </section>
+        
+        <!-- Start footer section -->
+        <footer>
+                       <!-- Start top footer section -->
+           <div id="top-footer">
+            <div class="center-block d-flex space-between">
+                <div id="adress"><i class="zmdi zmdi-pin"></i> <a href="https://www.google.com/maps/place/Dom+izviđača+10.OKTOBAR/@44.332584,21.0673939,15z/data=!4m5!3m4!1s0x0:0xb94ee2a7fca44287!8m2!3d44.332584!4d21.0673939">Kosovska 4, Velika Plana</a></div>
+                <div id="social">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="https://www.instagram.com/scouts_10.october/">
+                                <img src="assets/images/Social/Instagram.png" alt="Instagram" srcset="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/sg10.october/">
+                                <img src="assets/images/Social/Facebook.png" alt="Facebook" srcset="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCOYd5HSYdR9FXEpMVJzLfpQ">
+                                <img src="assets/images/Social/Youtube.png" alt="YouTube" srcset="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/Social/Paypal.png" alt="Paypal srcset="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="center-block d-flex space-between">
+                <div id="copyright">
+                    <p>Copyright &copy; 2023.</p>
+                </div>
+                <div id="author">
+                    <p>Design by <a href="https://www.instagram.com/kiconii13/">Milan </a> <span class="blue-text">Marković</span></p>
+                </div>
+            </div>
+        </footer>
+
+        <div id="scrollToTop">
+            <i class="zmdi zmdi-caret-up-circle"></i>
+        </div>
+
+        <!-- JQuery -->    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+        <!-- Animate JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script> AOS.init(); </script>
+
+        <!-- Template JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+ </html>
